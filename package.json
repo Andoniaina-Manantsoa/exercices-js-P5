@@ -7,7 +7,7 @@
     "start": "http-server -p 8080 -d",
     "test": "cypress open"
   },
-  "author": "",
+  "author": "RAZANADRAKOTO Andoniaina",
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1",

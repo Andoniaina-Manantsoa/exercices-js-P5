@@ -19,14 +19,32 @@ h1 {
     margin: 0;
 }
 
+@media screen and (max-width : 768px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
 nav {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+}
+
+@media screen and (max-width : 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
 }
 
 nav li {
@@ -43,11 +61,11 @@ nav a {
 }
 
 /* Styles du main */
-main {
+main,
+footer p {
     padding: 20px;
 }
 
 section {
     margin-bottom: 20px;
 }
-
