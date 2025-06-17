@@ -1,19 +1,17 @@
 header {
     display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: #FFCC99;
-    box-shadow: 4px 4px 4px 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 main {
     background-color: #E6F2FF;
-}
-
-main h2 {
-    margin: 20px;
+    display: flex;
 }
 
 main section {
+    margin: 20px;
     display: flex;
     flex: 3;
 }
@@ -22,19 +20,11 @@ aside {
     background-color: #B3D9FF;
     display: flex;
     flex: 1;
-}
-
-aside p {
-    border: 1px;
-    border-color: #ccc;
+    border: 1px solid #ccc;
 }
 
 footer {
     background-color: #99CC99;
-    box-shadow: 4px 4px 4px 4px;
-}
-
-footer p {
-    border: 1px;
-    border-color: #ccc;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
 }
