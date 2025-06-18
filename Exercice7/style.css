@@ -26,7 +26,6 @@ h1 {
 }
 
 nav {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +34,9 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
+    gap: 20px;
 }
 
 @media screen and (max-width : 768px) {
@@ -47,11 +48,7 @@ nav ul {
     }
 }
 
-nav li {
-    margin-right: 20px;
-}
-
-nav li:last-child {
+nav ul li:first {
     margin-right: 0;
 }
 

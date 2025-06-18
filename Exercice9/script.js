@@ -1,18 +1,21 @@
 // votre code ici
 function checkAge(int) {
-    ageMajeur = 18;
-    ageSenior = 65;
+    const ageMajeur = 18;
+    const ageSenior = 65;
+
     if (int < ageMajeur) {
-        console.log("Vous ête mineur.")
+        return "Vous êtes mineur.";
     }
 
-    if (int >= ageMajeur, int <= ageSenior) {
-        console.log("Vous êtes majeur.")
+    if (int >= ageMajeur && int < ageSenior) {
+        return "Vous êtes majeur.";
     }
 
     else {
-        console.log("Vous êtes senior.")
+        return "Vous êtes senior.";
     }
 }
+let age = checkAge(30);
+console.log(age);
 
 export default checkAge;
